@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3467749930922983645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7584712212755254874}
+  - component: {fileID: -1029249225945322823}
+  - component: {fileID: 293761205225825258}
+  - component: {fileID: -7249668425509915431}
+  m_Layer: 0
+  m_Name: KCC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7584712212755254874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3467749930922983645}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-1029249225945322823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3467749930922983645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SortKey: 694183944
+  ObjectInterest: 0
+  Flags: 262145
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: -7249668425509915431}
+--- !u!54 &293761205225825258
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3467749930922983645}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &-7249668425509915431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3467749930922983645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f7684f04e649e84fb2ee1bc9fbee42d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _settings:
+    Shape: 1
+    IsTrigger: 0
+    Radius: 0.35
+    Height: 1.8
+    Extent: 0.035
+    ColliderLayer: 0
+    CollisionLayerMask:
+      serializedVersion: 2
+      m_Bits: 1
+    Features: -1
+    InputAuthorityBehavior: 0
+    StateAuthorityBehavior: 0
+    ProxyInterpolationMode: 0
+    AllowClientTeleports: 0
+    Processors:
+    - {fileID: 4219866145273439913, guid: 1ab62523487a65745ab7ee9663ad9025, type: 3}
+    - {fileID: 561824206424634091, guid: 68c4081a63f1dfd469da9c95bea22158, type: 3}
+    - {fileID: 8306782452827789390, guid: 6d976f9777012db4aa55e7e6b1991afe, type: 3}
+    TeleportThreshold: 1
+    MaxPenetrationSteps: 8
+    CCDRadiusMultiplier: 0.75
+    AntiJitterDistance: {x: 0.025, y: 0.01}
+    PredictionCorrectionSpeed: 30
+    NetworkedInteractions: 8
+    CompressNetworkPosition: 0
+    ForceSingleOverlapQuery: 0
+    ForcePredictedLookRotation: 0
+    SuppressConvexMeshColliders: 0
